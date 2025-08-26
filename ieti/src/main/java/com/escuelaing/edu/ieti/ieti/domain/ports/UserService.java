@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.List;
 
 public interface UserService {
+
     User getUser(String name);
 
     Collection<User> getUsers();
